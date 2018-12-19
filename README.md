@@ -271,7 +271,7 @@ You can enable them by adding the next line to `config/application.rb` (or only
 `config/environments/production.rb` if you only want them in production)
 
 ```ruby
-config.i18n.fallbacks = true
+config.i18n.fallbacks = [:en]
 ```
 
 By default, globalize will only use fallbacks when your translation model does
